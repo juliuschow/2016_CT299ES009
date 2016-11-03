@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">CT299ES009_23_Chow_Kwok_Leung</string>
+
+    <!--首頁相簿-->
+    <integer-array name="pics">
+        <item>@drawable/image01</item>
+        <item>@drawable/image02</item>
+        <item>@drawable/image03</item>
+        <item>@drawable/image04</item>
+    </integer-array>
+
+    <!--首頁-->
+    <string name="title">不時不食 水果專門店</string>
+    <string name="catalogue">商品目錄</string>
+
+    <!--Menu-->
+    <string name="title1">不時不食</string>
+    <string name="title2">水果專門店</string>
+    <string name="menu_home">首頁</string>
+    <string name="menu_goods">商品</string>
+    <string name="menu_catalogue">商品目錄</string>
+    <string name="menu_shoppingCart">購物車</string>
+    <string name="menu_call">聯絡我們</string>
+    <string name="menu_fb">FB專頁</string>
+    <string name="menu_map">店舖位置</string>
+    <string name="menu_map2">街景定位</string>
+    <string name="menu_tel">電話</string>
+    <string name="menu_aboutMe">關於我</string>
+
+    <!--AboutMe-->
+    <string name="AboutMe">不時不食 水果專門店成立於2016年初，\n
+        是一間品質嚴格的水果速遞公司。\n
+        我們立志為每位顧客嚴選世界各地，\n
+        最優質最新鮮的時令水果。\n
+        與顧客一起分享最新鮮最優質的時令水果。</string>
+
+    <string name="AboutMe2">版本：1.0</string>
+    <string name="AboutMe3">Julius Chow製作</string>
+
+    <!--目錄-->
+    <string name="name">名稱</string>
+    <string name="price">價錢</string>
+    <string name="place">產地</string>
+    <string name="buy">購買</string>
+    <string name="select">選擇</string>
+    <string name="unselected">未選擇</string>
+    <string name="back">返回</string>
+
+    <!--產地-->
+    <string name="JP">日本</string>
+    <string name="MS">馬來西亞</string>
+    <string name="US">美國</string>
+    <string name="CH">中國</string>
+    <string name="HK">香港</string>
+
+    <!--*************************************************************-->
+    <!--************************商品數據******************************-->
+    <!--*************************************************************-->
+
+    <!--桃-->
+    <string name="momo">桃</string>
+    <string name="momo_price">420</string>
+    <string name="momo_place">@string/JP</string>
+
+    <!--榴槤-->
+    <string name="durian">榴槤</string>
+    <string name="durian_price">420</string>
+    <string name="durian_place">@string/MS</string>
+
+    <!--蘋果-->
+    <string name="apple">蘋果</string>
+    <string name="apple_price">80</string>
+    <string name="apple_place">@string/US</string>
+
+    <!--提子-->
+    <string name="grape">提子</string>
+    <string name="grape_price">860</string>
+    <string name="grape_place">@string/JP</string>
+
+    <!--車厘子-->
+    <string name="cherry">車厘子</string>
+    <string name="cherry_price">100</string>
+    <string name="cherry_place">@string/US</string>
+
+</resources>

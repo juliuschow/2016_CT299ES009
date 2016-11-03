@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/menu_home"
+        android:id="@+id/home_icon"
+        android:onClick="menu_home_icon_click"
+        android:icon="@drawable/home"
+        app:showAsAction="always"/>
+    <item
+        android:title="@string/menu_goods"
+        android:icon="@drawable/shopping_cart"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:title="@string/menu_catalogue"
+                android:id="@+id/menu_catalogue_icon"
+                android:onClick="menu_catalogue_icon_click"
+                android:icon="@android:drawable/ic_input_get"/>
+            <item
+                android:title="@string/menu_shoppingCart"
+                android:id="@+id/menu_shoppingCart_icon"
+                android:onClick="menu_shoppingCart_icon_click"
+                android:icon="@drawable/shopping_cart"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/menu_call"
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:title="@string/menu_fb"
+                android:id="@+id/fb_icon"
+                android:onClick="menu_fb_icon_click"
+                android:icon="@drawable/fb_icon"/>
+            <item
+                android:title="@string/menu_map"
+                android:id="@+id/menu_mapmode_icon"
+                android:onClick="menu_mapmode_icon_click"
+                android:icon="@android:drawable/ic_menu_mapmode"/>
+
+            <item
+                android:title="@string/menu_map2"
+                android:id="@+id/menu_mapmode2_icon"
+                android:onClick="menu_mapmode2_icon_click"
+                android:icon="@android:drawable/ic_menu_myplaces"/>
+            <item
+                android:title="@string/menu_tel"
+                android:id="@+id/menu_menu_call_icon"
+                android:onClick="menu_menu_call_icon_click"
+                android:icon="@android:drawable/ic_menu_call"/>
+            <item
+                android:title="@string/menu_aboutMe"
+                android:id="@+id/menu_aboutMe_icon"
+                android:onClick="menu_aboutMe_icon_click"
+                android:icon="@android:drawable/ic_dialog_info"/>
+        </menu>
+    </item>
+
+</menu>

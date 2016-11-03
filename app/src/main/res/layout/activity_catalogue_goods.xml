@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOutput1"
+        android:textSize="32dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOutput2"
+        android:textSize="32dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_below="@+id/txtOutput1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtOutput3"
+        android:textSize="32dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_below="@+id/txtOutput2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtOutput3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:id="@+id/buttonBuy"
+            android:onClick="btnBack"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            android:layout_margin="20dp"
+            android:textSize="36dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/txtOutput3"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buy"
+            android:id="@+id/buttonBack"
+            android:onClick="btnBuy"
+            android:visibility="visible"
+            android:layout_margin="20dp"
+            android:textSize="36dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="false"
+            android:layout_below="@+id/buttonBuy"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</RelativeLayout>
